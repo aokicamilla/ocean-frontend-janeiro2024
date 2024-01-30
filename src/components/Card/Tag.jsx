@@ -6,7 +6,7 @@ function Tags(props) {
       <>
           <div className="tags">
             <span>{tag.status}</span>
-            <span>{tag.especies}</span>
+            <span>{tag.species}</span>
             <span>{tag.origin}</span>
           </div>
       </>

@@ -3,13 +3,13 @@ import Tags from './Tag'
 function Card(props) {
   const tag1 = {
     status: 'Alive',
-    especies: 'Human',
+    species: 'Human',
     origin: 'Earth (C-137)'
   }
 
   const tag2 = {
     status: 'Alive',
-    especies: 'Human',
+    species: 'Human',
     origin: 'Earth (C-137)'
   }
 
