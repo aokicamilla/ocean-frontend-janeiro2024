@@ -1,6 +1,18 @@
 import Tags from './Tag'
 
 function Card(props) {
+  const tag1 = {
+    status: 'Alive',
+    especies: 'Human',
+    origin: 'Earth (C-137)'
+  }
+
+  const tag2 = {
+    status: 'Alive',
+    especies: 'Human',
+    origin: 'Earth (C-137)'
+  }
+
 
   const item = props.item
 
@@ -8,9 +20,7 @@ function Card(props) {
     <>
       <div className="card">
         <h2>{item.name}</h2>
-
-          <Tags/>
-
+          <Tags tag={tag1}/>
         <img src={item.image} />
       </div>
     </>

@@ -1,12 +1,13 @@
-function Tags() {
+function Tags(props) {
 
-  
+  const tag = props.tag
+
     return (
       <>
           <div className="tags">
-            <span>Status:Vivo</span>
-            <span>Espécie: Humana</span>
-            <span>Origem: Terra C-137</span>
+            <span>{tag.status}</span>
+            <span>{tag.especies}</span>
+            <span>{tag.origin}</span>
           </div>
       </>
     )
