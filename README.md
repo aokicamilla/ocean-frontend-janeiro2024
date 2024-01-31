@@ -1,8 +1,7 @@
-# React + Vite
+# Criando uma página com React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples que utiliza a [API de Rick and Morty](https://rickandmortyapi.com/) para exibir informações sobre os personagens da famosa série de desenhos animados "Rick and Morty", fornecendo detalhes como nome, imagem, status e mais alguns detalhes.
+Ela foi construída durante uma imersão proporcionada pela Samsung Ocean com o Prof. Paulo Salvatore.
 
-Currently, two official plugins are available:
+A aplicação utiliza a API de Rick and Morty para buscar e exibir dinamicamente os dados dos personagens. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
