@@ -1,30 +1,15 @@
-import Tags from './Tag'
-
-function Card(props) {
-  const tag1 = {
-    status: 'Alive',
-    species: 'Human',
-    origin: 'Earth (C-137)'
-  }
-
-  const tag2 = {
-    status: 'Alive',
-    species: 'Human',
-    origin: 'Earth (C-137)'
-  }
-
-
-  const item = props.item
-
+const Card = ({ item }) => {
   return (
-    <>
-      <div className="card">
-        <h2>{item.name}</h2>
-          <Tags tag={tag1}/>
-        <img src={item.image} />
+    <div className="card">
+      <h2>{item.name}</h2>
+      <div className="tags">
+        {item.status && <span>Status: {item.status}</span>}
+        {item.species && <span>Species: {item.species}</span>}
+        {item.origin && item.origin.name && <span>Origin: {item.origin.name}</span>}
       </div>
-    </>
-  )
-}
+      <img src={item.image} alt={item.name} />
+    </div>
+  );
+};
 
 export default Card

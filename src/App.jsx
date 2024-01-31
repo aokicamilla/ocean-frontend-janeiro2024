@@ -56,13 +56,16 @@ function App() {
  
   return (
     <>
-    <div className="cards">
-      {/* <Card item={item1}>
-      </Card>
-      <Card item={item2} />
-      <Card item={item3} />
-    </div> */}
-    {itens.map((item,i) => <Card item={item} key={i} />)}
+    <div className="page">
+      <h1>Personagens de Ricky and Morty</h1>
+      <div className="cards">
+        {/* <Card item={item1}>
+        </Card>
+        <Card item={item2} />
+        <Card item={item3} />
+      </div> */}
+      {itens.map((item,i) => <Card item={item} key={i} />)}
+      </div>
     </div>
     </>
   )
