@@ -11,17 +11,23 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border:1px solid white;
   border-radius: 10px;
   padding: 16px;
   box-shadow: 4px 4px white;
   text-align: center;
   cursor: pointer;
+  width: 300px;
 }
 
 .card > h2 {
   font-size: 32px;
   border-left: 7px solid rgb(0, 140, 255);
+  display: flex;
+  justify-content: center;
 }
 
 .card > img {
